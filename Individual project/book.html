@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>booking</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<nav class="nav_container">
+			<ul class="left">
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="book.html">BOOK YOUR GAME</a></li>
+				<li><a href="location.html">LOCATIONS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+			
+			<ul class="right">
+				<li><a href="login.html">LOGIN  <img src="/img/login.png" width="25px" height="35px"></a></li>
+			</ul>
+	</nav>
+	
+	<br><br>
+	
+	<h1 id="chart">
+		Kandy,Akurana,Gampola,Gelioya Courts
+	</h1>
+	
+	
+	<div class="chart">
+		
+		<nav class="chart-one">
+			<ul class="chart-left">
+				<li><img src="/img/list.png" width="20px" height="20px"></li>
+				
+				<li><p style="font-size:20px";>&nbsp; Book Game</p></li>
+			</ul>
+			<ul class="chart-right">
+				<li><img src="/img/user-interface.png" width="30px" height="30px"></li>
+			<ul>
+		</nav>
+	
+		
+		<hr color="#f5f5f0"/>
+		
+		<div class="chart-image">
+			<ul class="image-left">
+				<li><img src="/img/club-logo.jpg" width="100px" height="100px"></li>
+			</ul>
+			<ul class="image-right">
+				<li><h3>&ensp; KANDY</h3></li>
+				<br>
+				<li><p>&ensp; Katugatota Road Kandy,Mtale Road Akurana,Kahatapitiya Gampola,Gampola Road Gelioya</p></li>
+			</ul>			
+		</div>
+		
+		<hr color="#f5f5f0"/>
+		
+		<div class="chart-two">
+			<ul class="two-left">
+				<li><h3 id="two">Your Game</h3></li>
+			</ul>
+			<ul class="two-right">
+				<li>
+				<button onclick="showPolicy()">Booking Policy</button>			
+				</li>
+			</ul>			
+		</div>
+		
+		<div class="first-form">
+			<form class="form-one">
+				<select id="form-one">
+					<option value="Katugastota-Kandy">Katugastota-Kandy</option>
+					<hr color="#f5f5f0"/>
+					<option value="one">1 Hour - Ground 1(front):Rs3500</option>
+					<hr color="#f5f5f0"/>
+					<option value="two">2 Hours - Ground 1(front):Rs6500</option>
+					<hr color="#f5f5f0"/>
+					<option value="three">3 Hours - Ground 1(front):Rs9000</option>
+					<hr color="#f5f5f0"/>
+					<option value="five">1 Hour - Ground 1(back):Rs3000</option>
+					<hr color="#f5f5f0"/>
+					<option value="six">2 Hours - Ground 1(back):Rs6000</option>
+					<hr color="#f5f5f0"/>
+					<option value="seven">3 Hours - Ground 1(back):Rs8000</option>
+				</select>
+			
+			</form>
+			
+			<div class="form-icon">
+				<img src="/img/down-arrow.png" width="20px" height="20px">
+			</div>
+		</div>
+		
+		<hr color="#f5f5f0"/>
+		
+		<div class="first-form">
+			<form class="form-one">
+				<select id="form-one">
+					<option value="Akurana">Akurana</option>
+					<hr color="#f5f5f0"/>
+					<option value="one">1 Hour - Akurana Ground:Rs3500</option>
+					<hr color="#f5f5f0"/>
+					<option value="two">2 Hours - Akurana Ground:Rs6500</option>
+					<hr color="#f5f5f0"/>
+					<option value="three">3 Hours -Akurana Ground:Rs9000</option>
+				</select>
+			</form>
+			
+			<div class="form-icon">
+				<img src="/img/down-arrow.png" width="20px" height="20px">
+			</div>
+		</div>
+		
+		<hr color="#f5f5f0"/>
+		
+		<div class="first-form">
+			<form class="form-one">
+				<select id="form-one">
+					<option value="Gampola">Kahatapitiya-Gampola</option>
+					<hr color="#f5f5f0"/>
+					<option value="one">1 Hour - Ground 1:Rs3500</option>
+					<hr color="#f5f5f0"/>
+					<option value="two">2 Hours - Ground 1:Rs6500</option>
+					<hr color="#f5f5f0"/>
+					<option value="three">3 Hours - Ground 1:Rs9000</option>
+				</select>
+			</form>
+			
+			<div class="form-icon">
+				<img src="/img/down-arrow.png" width="20px" height="20px">
+			</div>
+		</div>
+		
+		
+		<hr color="#f5f5f0"/>
+		
+		<div class="first-form">
+			<form class="form-one">
+				<select id="form-one">
+					<option  value="Gelioya">Gelioya</option>
+					<hr color="#f5f5f0"/>
+					<option value="one">1 Hour - Ground 1(back):Rs3500</option>
+					<hr color="#f5f5f0"/>
+					<option value="two">2 Hours - Ground 1 (back):Rs6500</option>
+					<hr color="#f5f5f0"/>
+					<option value="three">3 Hours - Ground 1 (back):Rs9000</option>
+				</select>
+			</form>
+			
+			<div class="form-icon">
+				<img src="/img/down-arrow.png" width="20px" height="20px">
+			</div>
+			
+		</div>
+		
+		<div class="chart-three">
+		
+		</div>
+		
+	</div>
+	
+	<div class="chart-pay">
+			<div class="payment">
+				<h2 id="payment">Pay Online</h2>
+			</div>
+			
+			<div class="method1">
+			<img src="/img/logo.png" width="60px" height="60px">	
+			<img src="/img/visa (1).png" width="60px" height="60px">	
+			</div>
+	</div>
+	
+	
+		<br><br><br>
+	<div class="last">
+		<div class="note">
+		<h2 style="color:white";><u>KANDY SPORTS</u></h2>
+		<br><br>
+		<p style="color:white";>Kandy’s network of sports facilities started in 2015 with our first ground at Kandy. We now have 4 high-quality indoor sports pitches!</p>
+		</div>
+		
+		<div class="note" >
+		<a href="about.html" style="color:white";>About Us</a>
+		<hr color="#9f9fa1"/>
+		<br>
+		<a href="book.html" style="color:white";>Book Your Game</a>
+		<hr color="#9f9fa1"/>
+		<br>
+		<a href="contact.html" style="color:white";>Contact</a>
+		</div>
+	</div>
+	
+	<footer>
+	<div class="bottom-bar">
+		<p id="bottom-bar">© Copyright 2024 - Kandy Sports. Powered by Unknwn</p>
+	</div>
+	</footer>
+<script src="main.js"></script>
+</body>
+</html>
